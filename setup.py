@@ -19,18 +19,18 @@ setup(
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['target_postgres'],
     install_requires=[
-        'arrow==0.15.5',
-        'psycopg2==2.8.5',
-        'singer-python==5.9.0'
+        'arrow~=1.2',
+        'psycopg2~=2.9',
+        'singer-python>=5.12.3'
     ],
     setup_requires=[
         "pytest-runner"
     ],
     extras_require={
         'tests': [
-            "chance==0.110",
-            "Faker==4.0.3",
-            "pytest==5.4.1"
+            "chance>=0.110",
+            "Faker>=4.0.3",
+            "pytest>=5.4.1"
         ]},
     entry_points='''
       [console_scripts]
