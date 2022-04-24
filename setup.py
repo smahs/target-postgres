@@ -19,7 +19,7 @@ setup(
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['target_postgres'],
     install_requires=[
-        'arrow~=1.2',
+        'arrow~=0.17',
         'psycopg2~=2.9',
         'singer-python>=5.12.3'
     ],
